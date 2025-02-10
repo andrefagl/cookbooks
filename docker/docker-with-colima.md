@@ -17,6 +17,11 @@ If you don’t have Homebrew, install it:
 Run the following command to install **Colima**, **Docker CLI**, and **other required tools**:
 ```bash
 brew install colima docker docker-compose
+
+# After this, edit the ~/.docker/config.json and add the following:
+# "cliPluginsExtraDirs": [
+#       "/opt/homebrew/lib/docker/cli-plugins"
+#   ]
 ```
 
 ---
